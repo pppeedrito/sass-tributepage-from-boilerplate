@@ -33,8 +33,8 @@
 }
 
 //para borde nuevo
-@mixin addBorder($borderval) {
-  border: $borderval solid $brand-color;
+@mixin addBorder($borderwidth) {
+  border: $borderwidth solid $brand-color;
 }
 
 

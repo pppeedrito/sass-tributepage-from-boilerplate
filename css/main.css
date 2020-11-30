@@ -386,6 +386,11 @@ body {
   color: #222222;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
 
 h1 {
   margin: 0;
@@ -457,19 +462,18 @@ ul li {
   width: 1px;
 }
 
-@media only screen and (min-width: 768px) {
-  main #image {
-    border: 10px solid #5037cd;
-  }
-}
-main p, main h1, main figure, main #img_caption {
-  text-align: center;
-}
-main h3 {
-  text-align: center;
-}
-
 html {
   background-color: #ededed;
+}
+@media only screen and (min-width: 768px) {
+  html main #image {
+    border: 20px solid #5037cd;
+  }
+}
+html main p, html main h1, html main figure, html main #img_caption {
+  text-align: center;
+}
+html main h3 {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

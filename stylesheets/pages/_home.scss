@@ -6,8 +6,8 @@ html{
     main{
     
      #image{
-        @media only screen and (min-width: 768px) {
-            @include addBorder(10px);
+        @media only screen and (min-width: map-get($breakpoints , medium )) {
+            @include addBorder(20px);
           }
     
         }
